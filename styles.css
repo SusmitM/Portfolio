@@ -53,6 +53,15 @@ hr {
     padding: 0rem 0.5rem;
 
 }
+.right {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+.pills{
+    text-align: right;
+
+}
 
 .navigation {
     background-color: var(--primary-color);
