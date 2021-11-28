@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 body {
-    font-family: 'PT Sans', sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 :root {
@@ -13,7 +13,9 @@ body {
 hr {
     margin: 3rem 0rem;
 }
-
+li:hover{
+    font-weight: bold;
+}
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -41,7 +43,7 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .list-unordered {
@@ -51,6 +53,7 @@ hr {
 .list-inline {
     display: inline;
     padding: 0rem 0.5rem;
+    text-decoration: none;
 
 }
 .right {
@@ -82,6 +85,7 @@ hr {
 .link {
     color: white;
     display: inline; 
+    text-decoration: none;
 }
 
 .navigation .link-active {
@@ -90,7 +94,10 @@ hr {
 
 
 .hero {
-    padding: 1rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem 0rem;
+    text-align: center;
 }
 
 .hero .hero-image {
@@ -101,8 +108,8 @@ hr {
 }
 
 .hea {
+    text-align: center;
 
-    color: var(--dark-gray);
 }
 
 .hero .hea .poster {
@@ -120,12 +127,21 @@ hr {
 }
 .jack{
     background-color: var(--off-white);
+    padding:2rem;
+    text-align: center;
+    
 }
+.mature {
+    text-align: center;
+    padding: 2rem;
+}
+
 .footer{
     background-color: var(--primary-color);
     padding:2rem;
     text-align: center;
     color: white;
+    border-radius: 1rem;
 
 }
 .footer.link{
@@ -133,4 +149,14 @@ hr {
 }
 .footer ul{
     padding-inline-start:0px;
+}
+.icon ul li .fa {
+    color: #000000;
+    font-size: 30px;
+    line-height: 50px;
+    transition: .5s;
+    padding:1rem;
+}
+.icon ul li .fa:hover {
+    color: #ffffff;
 }
