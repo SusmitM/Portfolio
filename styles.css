@@ -138,10 +138,10 @@ li:hover{
 
 .footer{
     background-color: var(--primary-color);
-    padding:2rem;
+    padding:0.5rem;
     text-align: center;
     color: white;
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
 
 }
 .footer.link{
@@ -149,6 +149,11 @@ li:hover{
 }
 .footer ul{
     padding-inline-start:0px;
+}
+.icon{
+    font-weight: bold;
+    font-size: 23px;
+
 }
 .icon ul li .fa {
     color: #000000;
