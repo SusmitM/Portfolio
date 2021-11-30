@@ -6,7 +6,7 @@ body {
 
 :root {
     --primary-color: #4957ed;
-    --off-white: #F3F4F6;
+    --secondary-color: #F3F4F6;
     --dark-gray: #6B7280;
 }
 
@@ -146,7 +146,7 @@ a:hover {
 }
 
 .jack {
-    background-color: var(--off-white);
+    background-color: var(--secondary-color);
     padding-bottom: 1.15rem;
     text-align: center;
     border-radius: 2rem;
