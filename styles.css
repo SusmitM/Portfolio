@@ -199,7 +199,7 @@ a:hover {
 }
 
 .fill {
-    padding-top: 0rem;
+    padding-top: 1.25rem;
 
 }
 
@@ -217,7 +217,7 @@ a:hover {
 }
 
 .tom {
-    background-color: var(--off-white);
+    background-color: var(--secondary-color);
     text-align: left;
     padding-bottom: 1.15rem;
     border-radius: 2rem;
