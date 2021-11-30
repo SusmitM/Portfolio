@@ -172,6 +172,29 @@ li:hover{
 .icon ul li .fa:hover {
     color: #ffffff;
 }
-.fclass{
-    padding-top: 0.75rem;
+.fill{
+    padding-top: 0rem;
+
+}
+
+/* For Blog*/
+.jill {
+    background-color:white;
+    text-align: left;
+    padding-bottom: 1.15rem;
+}
+.jill h1 {
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+}
+.tom {
+    background-color:var(--off-white);
+    text-align: left;
+    padding-bottom: 1.15rem;
+}
+.tom h1 {
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
 }
