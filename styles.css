@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 body {
-   font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 :root {
@@ -13,9 +13,21 @@ body {
 hr {
     margin: 3rem 0rem;
 }
-li:hover{
+
+li:hover {
     font-weight: bold;
 }
+
+a:-webkit-any-link {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a:hover {
+    font-weight: bold;
+
+}
+
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -25,14 +37,14 @@ li:hover{
 .container-c {
     max-width: 600px;
     margin: auto;
-   
+
 }
 
 
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     color: white;
     text-decoration: none;
     padding: 0.5rem 0.5rem;
@@ -41,10 +53,10 @@ li:hover{
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     border: 1px solid var(--primary-color);
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .list-unordered {
@@ -57,12 +69,14 @@ li:hover{
     text-decoration: none;
 
 }
+
 .right {
     display: inline;
     padding: 0rem 0.5rem;
 
 }
-.pills{
+
+.pills {
     text-align: right;
 
 }
@@ -85,7 +99,7 @@ li:hover{
 
 .link {
     color: white;
-    display: inline; 
+    display: inline;
     text-decoration: none;
 }
 
@@ -110,7 +124,7 @@ li:hover{
 }
 
 .hea {
-    text-align:center;
+    text-align: center;
 
 }
 
@@ -130,78 +144,99 @@ li:hover{
     padding-top: 2rem;
     padding-bottom: 0rem;
 }
-.jack{
-    background-color:var(--off-white);
-    padding-bottom:1.15rem;
+
+.jack {
+    background-color: var(--off-white);
+    padding-bottom: 1.15rem;
     text-align: center;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 
-    
+
 }
+
 .mature {
-    background-color:white;
+    background-color: white;
     text-align: center;
     padding-bottom: 1.15rem;
 }
 
 
-.footer{
+.footer {
     background-color: var(--primary-color);
-    padding:0.5rem;
+    padding: 0.5rem;
     text-align: center;
     color: white;
     border-top-left-radius: 1rem;
 
 }
-.footer.link{
+
+.footer.link {
     color: white;
 }
-.footer ul{
-    padding-inline-start:0px;
+
+.footer ul {
+    padding-inline-start: 0px;
 }
-.icon{
+
+.icon {
     font-weight: bold;
     font-size: 23px;
 
 }
+
 .icon ul li .fa {
     color: #000000;
     font-size: 30px;
     line-height: 50px;
     transition: .5s;
-    padding:1rem;
+    padding: 1rem;
 }
+
 .icon ul li .fa:hover {
     color: #ffffff;
 }
-.fill{
+
+.fill {
     padding-top: 0rem;
 
 }
 
-/* For Blog*/
+/* For Blog section*/
 .jill {
-    background-color:white;
+    background-color: white;
     text-align: left;
     padding-bottom: 1.15rem;
 }
+
 .jill h1 {
     text-align: left;
     padding-top: 0.5rem;
     padding-bottom: 0rem;
 }
+
 .tom {
-    background-color:var(--off-white);
+    background-color: var(--off-white);
     text-align: left;
     padding-bottom: 1.15rem;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
+
 .tom h1 {
     text-align: left;
     padding-top: 0.5rem;
     padding-bottom: 0rem;
+}
+
+link link-primary:hover {
+    font-weight: bold;
+}
+
+/* For Projects section*/
+.s-link {
+    padding-top: 2rem;
+    text-align: left;
 }
