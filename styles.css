@@ -34,7 +34,7 @@ a:hover {
 
 }
 
-.container-c {
+.projectContainer {
     max-width: 600px;
     margin: auto;
 
@@ -236,7 +236,7 @@ link link-primary:hover {
 }
 
 /* For Projects section*/
-.s-link {
+.gitLinkHolder {
     padding-top: 2rem;
     text-align: left;
 }
