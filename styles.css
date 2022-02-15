@@ -204,19 +204,19 @@ a:hover {
 }
 
 /* For Blog section*/
-.jill {
+.darkSection {
     background-color: white;
     text-align: left;
     padding-bottom: 1.15rem;
 }
 
-.jill h1 {
+.darkSection h1 {
     text-align: left;
     padding-top: 0.5rem;
     padding-bottom: 0rem;
 }
 
-.tom {
+.lightSection {
     background-color: var(--secondary-color);
     text-align: left;
     padding-bottom: 1.15rem;
@@ -225,7 +225,7 @@ a:hover {
 
 }
 
-.tom h1 {
+.lightSection h1 {
     text-align: left;
     padding-top: 0.5rem;
     padding-bottom: 0rem;
