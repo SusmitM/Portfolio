@@ -198,9 +198,11 @@ a:hover {
 
 /* For Blog section*/
 .darkSection {
-    background-color: white;
+    background-color: var(--secondary-color);
     text-align: left;
-    padding-bottom: 1.15rem;
+    padding: 0rem 0rem 1.15rem 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
 }
 
 .darkSection h1 {
@@ -210,9 +212,9 @@ a:hover {
 }
 
 .lightSection {
-    background-color: var(--secondary-color);
+    background-color: white;
     text-align: left;
-    padding-bottom: 1.15rem;
+    padding: 0rem 0rem 1.15rem 1rem;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
