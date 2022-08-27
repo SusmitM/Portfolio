@@ -34,13 +34,6 @@ a:hover {
 
 }
 
-.projectContainer {
-    max-width: 600px;
-    margin: auto;
-
-}
-
-
 
 .link-primary {
     background-color: var(--primary-color);
@@ -236,7 +229,34 @@ link link-primary:hover {
 }
 
 /* For Projects section*/
-.gitLinkHolder {
-    padding-top: 2rem;
-    text-align: left;
+.project-box {
+    width: 320px;
+    padding: 0.5rem;
+    margin: 2rem;
+    height: fit-content;
+    box-shadow: 0px 0px 10px 1px #888888;
+    border-radius: 0.5rem;
+    display: inline-block;
 }
+
+.project-image {
+    width: 320px;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+.project-box .primary-link{
+display: inline-block;
+padding:10px;
+margin-left: 10px;
+margin-right: 50px;
+border-radius: 1rem;
+background-color: #4957ed;
+}
+
+.project-box .secondary-link{
+    display: inline-block;
+    padding:10px;
+    border-radius: 1rem;
+    background-color: #4957ed;
+} 
